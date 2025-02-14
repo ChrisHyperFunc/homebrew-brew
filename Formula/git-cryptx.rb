@@ -5,10 +5,10 @@ class GitCryptx < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/ChrisHyperFunc/git-cryptx/releases/download/v1.0.0/git-cryptx-aarch64-apple-darwin.tar.gz"
-    sha256 "4711338b7aa3defd2049f1960bc3bd3902e46766c9833c7ffdd5ec44c9158b33"
+    sha256 "86f6562206fc54d5a51026a107df540a2856a4d39e5902418c2c44b8fffc842d"
   else
     url "https://github.com/ChrisHyperFunc/git-cryptx/releases/download/v1.0.0/git-cryptx-x86_64-apple-darwin.tar.gz"
-    sha256 "9721c93248516e90f2c5fcdba020ec2362c55e3642564dcd1bc2eeccd9975a22"
+    sha256 "82e9fa2a6cf818e6ee7fecbb76ab6352110b94ce2b3da1396593e47506c4c971"
   end
 
   def install
